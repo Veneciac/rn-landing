@@ -1,4 +1,3 @@
-
 import styled from 'styled-components';
 import {View} from 'react-native';
 import {Text} from 'components';
@@ -9,5 +8,5 @@ export const Container = styled(View)`
   align-items: center;
 `;
 
-export const VersionText = styled(Text)``;
-
+export const VersionText = styled(Text)`
+`;

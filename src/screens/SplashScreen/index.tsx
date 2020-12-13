@@ -3,10 +3,17 @@ import {Actions} from 'react-native-router-flux';
 import {Container, VersionText} from './style';
 
 const SplashScreen = () => {
+
+  useEffect(() => {
+    setTimeout(() => {
+      Actions.replace('Home');
+    }, 1000);
+  }, []);
+
   return (
     <Container>
       <VersionText>
-        HALO
+        Welcome
       </VersionText>
     </Container>
   );

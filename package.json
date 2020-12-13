@@ -11,10 +11,15 @@
     "lint:fix": "eslint --fix --ext .js,.jsx ."
   },
   "dependencies": {
+    "@types/react-native-snap-carousel": "^3.8.2",
     "react": "16.13.1",
     "react-native": "0.63.3",
+    "react-native-gesture-handler": "^1.9.0",
+    "react-native-reanimated": "^1.13.2",
     "react-native-router-flux": "^4.2.0",
     "react-native-screens": "^2.16.1",
+    "react-native-snap-carousel": "^3.9.1",
+    "react-native-vector-icons": "^7.1.0",
     "styled-components": "^5.2.1"
   },
   "devDependencies": {
